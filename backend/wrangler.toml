@@ -1,0 +1,20 @@
+name = "motoca-premium-backend"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "motoca-premium-db"
+database_id = "2f9e11cb-ba79-4a06-81e5-ab8c8f896daa"
+
+[vars]
+# Project id do Firebase usado para validar o ID token do Flutter (aud/iss).
+# Preencher com o project_id real de lib/firebase_options.dart.
+FIREBASE_PROJECT_ID = "filmeon-a0783"
+# Identificador do Motoca Premium enviado no header X-App-Id ao chamar a Saipos.
+SAIPOS_APP_ID = "motoca-premium"
+# URL da Saipos pra validar código de confirmação de entrega (POST /v1/confirmationCode
+# no spec Open Delivery). A Saipos não confirmou essa URL concreta nos docs deles ainda
+# (diferente do tracking-event-webhook) — deixar vazia até confirmar com o suporte.
+SAIPOS_CONFIRMATION_CODE_URL = ""

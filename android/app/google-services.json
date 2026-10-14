@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561424361982",
+    "project_id": "filmeon-a0783",
+    "storage_bucket": "filmeon-a0783.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561424361982:android:cbd233fd4317b41a0db8af",
+        "android_client_info": {
+          "package_name": "motopremium.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561424361982-e9trlckvb7sqvai8rgk36t22s3ebhh4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt7tXHmxBQdGGXr2vLJInapUcWcwSuz2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561424361982-e9trlckvb7sqvai8rgk36t22s3ebhh4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
